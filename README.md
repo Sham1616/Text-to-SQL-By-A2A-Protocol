@@ -44,7 +44,7 @@ project/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/Text-to-SQL-by-A2A-Protocol.git
+git clone https://github.com/Sham1616/Text-to-SQL-by-A2A-Protocol.git
 cd Text-to-SQL-by-A2A-Protocol/project
 ```
 
@@ -146,10 +146,9 @@ CREATE TABLE patients (
 Try these natural language queries:
 
 - **Basic Queries**
-  - "List all patients with diabetes"
   - "Show patients younger than 30"
   - "Find all patients treated by Dr. Smith"
-
+  
 - **Aggregation Queries**
   - "Count how many patients have heart disease"
   - "What's the average age of patients?"
@@ -159,6 +158,13 @@ Try these natural language queries:
   - "List patients admitted this month with chronic conditions"
   - "Find patients over 50 with diabetes or heart disease"
   - "Show the distribution of diseases by age group"
+ 
+Sample Outputs:
+Screenshots:
+
+<img width="1919" height="966" alt="Screenshot 2025-09-20 103316" src="https://github.com/user-attachments/assets/251599ec-a60d-48f6-96dc-ba6c95af4fd6" />
+<img width="940" height="610" alt="image" src="https://github.com/user-attachments/assets/e2ed29dc-118c-43a9-ac12-464862ebeb60" />
+
 
 ## 📦 Dependencies
 
@@ -236,45 +242,6 @@ python Main_Bot.py
 # Try the example queries listed above
 ```
 
-## 🤝 Contributing
-
-We welcome contributions! Here's how to get started:
-
-### How to contribute
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. **Make your changes**
-4. **Add tests** for new functionality
-5. **Commit your changes**
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-6. **Push to the branch**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-7. **Open a Pull Request**
-
-### Areas for contribution
-- New agent types (visualization, data analysis, etc.)
-- Additional database connectors (PostgreSQL, MySQL, etc.)
-- Enhanced natural language understanding
-- Web interface development
-- Performance optimizations
-
-## 📋 Roadmap
-
-- [ ] Web interface for easier interaction
-- [ ] Support for multiple database types
-- [ ] Advanced query optimization
-- [ ] Voice input integration
-- [ ] Result visualization agents
-- [ ] Multi-table join support
-- [ ] Query history and caching
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
@@ -298,22 +265,9 @@ pip install -r requirements.txt  # Reinstall dependencies
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact
-
-For questions, suggestions, or support:
-- **Issues**: [GitHub Issues](https://github.com/Sham1616/Text-to-SQL-by-A2A-Protocol/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Sham1616/Text-to-SQL-by-A2A-Protocol/discussions)
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Thanks to the open-source community for the amazing libraries
 - Inspired by modern agent-based architectures
 - Built with ❤️ for the developer community
 
----
-
-⭐ **If this project helped you build agent-based systems, please give it a star!**
-
-[![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
